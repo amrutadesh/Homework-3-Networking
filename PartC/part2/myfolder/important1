@@ -1,0 +1,158 @@
+    1  hostname
+    2  wget https://raw.github.com/mininet/mininet/2.1.0p2/util/vm/install-mininet-vm.sh
+    3  bash install-mininet-vm.sh 2.1.0p2
+    4  ~/mininet/bin/mn --version
+    5  cd ~/mininet; git fetch --all; git checkout 2.1.0p2; git pull --rebase origin 2.1.0p2
+    6  sudo make install
+    7  sudo mn --test pingall
+    8  sudo service cgroup-lite restart
+    9  sudo cgroups-mount
+   10  cd ~/mininet; sudo make test
+   11  sudo sed -i -e 's/^GRUB_TERMINAL=serial/#GRUB_TERMINAL=serial/' /etc/default/grub; sudo update-grub
+   12  sync; sudo shutdown -h now
+   13  git clone https://github.com/USC-NSL/miniNExT.git
+   14  make deps
+   15  cd mininext
+   16  cd MiniNExT
+   17  cd miniNExT
+   18  sudo make install
+   19  d..
+   20  cd..
+   21  exit
+   22  ls
+   23  vim myfolder/topo.py 
+   24  rm -rf myfolder/.topo.py.swp
+   25  vim myfolder/topo.py 
+   26  cd myfolder/
+   27  python start.py
+   28  vim topo.py
+   29  python start.py
+   30  vim topo.py
+   31  python start.py
+   32  vim topo.py
+   33  cd ~
+   34  mininet
+   35  cd mininet
+   36  miniNExT
+   37  cd miniNExT
+   38  cd ~
+   39  vim topo.py
+   40  ls
+   41  cd miniNExT
+   42  ls
+   43  cd examples
+   44  ls
+   45  cd quagga-ixp
+   46  ls
+   47  vim topo.py
+   48  cd ~
+   49  ls
+   50  vim ~/myfolder/topo.py
+   51  python start.py
+   52  pyhton ~/myfolder/start.py
+   53  cd myfolder
+   54  python start.py
+   55  vim topo.py
+   56  python start.py
+   57  vim topo.py
+   58  python start.py
+   59  vim topo.py
+   60  python start.py
+   61  vim topo.py
+   62  python start.py
+   63  suddo pyhton start.py
+   64  sudo pyhton start.py
+   65  sudo python start.py
+   66  vim topo.py
+   67  sudo python start.py
+   68  vim topo.py
+   69  sudo python start.py
+   70  vim topo.py
+   71  sudo python start.py
+   72  vim topo.py
+   73  sudo python start.py
+   74  vim topo.py
+   75  sudo python start.py
+   76  vim topo.py
+   77  sudo python start.py
+   78  vim topo.py
+   79  sudo python start.py
+   80  vim topo.py
+   81  sudo python start.py
+   82  vim topo.py
+   83  sudo python start.py
+   84  vim topo.py
+   85  sudo python start.py
+   86  vim topo.py
+   87  sudo python start.py
+   88  vim topo.py
+   89  sudo python start.py
+   90  vim topo.py
+   91  sudo python start.py
+   92  cd ~
+   93  ls
+   94  cd miniNExT/
+   95  ls
+   96  cd examples/
+   97  ls
+   98  cd quagga-ixp/
+   99  ls
+  100  cd configs/
+  101  ls
+  102  cd a1
+  103  ls
+  104  vim zebra.conf
+  105  vim bgpd.conf
+  106  cd ~
+  107  ls
+  108  cd myfolder/
+  109  ls
+  110  vim star.py
+  111  vim start.py
+  112  vim topo.py
+  113  cd configs/
+  114  ls
+  115  cd a1
+  116  ls
+  117  vim daemons 
+  118  cd ~
+  119  vim start.py
+  120  cd myfolder/
+  121  vim start.py
+  122  vim topo.py
+  123  cp topo.py topo_as.py
+  124  ls
+  125  vim topo.py
+  126  sudo python start.py
+  127  vim start.py 
+  128  cp start.py start_temp.py
+  129  vim start_temp.py 
+  130  sudo python start_temp.py
+  131  vim start_temp.py 
+  132  sudo python start_temp.py
+  133  sudo python start.py
+  134  vim start.py
+  135  vim start_temp.py
+  136  sudo python start_temp.py
+  137  vim start_temp.py
+  138  sudo python start_temp.py
+  139  sudo mn --switch ovs --controller ref --topo topo.py --test pingall
+  140  sudo mn
+  141  sudo mn --custom ~/mininet/custom/topo-2sw-2host.py --topo mytopo --test pingall
+  142  sudo mn --custom topo.py --topo mytopo --test pingall
+  143  sudo mn --custom topo.py --topo xxx --test pingall
+  144  vim topo.py
+  145  sudo mn --custom topo.py --topo QuaggaTopo --test pingall
+  146  vim start_temp.py
+  147  vim topo.py
+  148  sudo mn --custom topo.py --topo topotest --test pingall
+  149  vim topo.py
+  150  sudo mn --custom topo.py --topo topotest --test pingall
+  151  sudo mn --custom topo.py --topo topotest
+  152  vim topo.py
+  153  sudo mn --custom topo.py --topo topotest
+  154  vim topo.py
+  155  sudo mn --custom topo.py --topo topotest
+  156  vim topo.py
+  157  sudo mn --custom topo.py --topo topotest
+  158  history >important1

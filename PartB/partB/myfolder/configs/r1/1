@@ -1,0 +1,20 @@
+
+hostname	r1
+password	quagga
+
+config term
+router rip
+version 2
+network 192.0.1.0/24
+network 192.0.2.0/24
+passive-interface eth1
+exit
+exit
+write
+
+
+
+
+
+
+ 
